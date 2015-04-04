@@ -7,13 +7,13 @@ Ext.define("StudyOnLine.view.Viewport",{
       items:[
           {
               region:'north',
-             html:'<h1 style="text-align: center">在线学习系统</h1>',
+             html:'<h1 style="text-align: center">L学习</h1>',
               height:80
           },
           {
               region:'west',
               width:200,
-              //title:'菜单管理',
+              title:'菜单管理',
               split:true,
               //xtype:'menuview'
           }
@@ -25,18 +25,21 @@ Ext.define("StudyOnLine.view.Viewport",{
               //id:'mainContent',
               items:[
                   {
-                      title:'欢迎使用爬虫系统',
-                      html:'<h1>欢迎使用爬虫系统</h1>'
+                      title:'欢迎',
+                      html:'<h1>欢迎使用L学习系统</h1>'
 
 
-                  }/*,
-                  {
-                       xtype:'CommodityTypeManageView',
-                      closable:true
-                  }*/
+                  }
+                 
 
               ]
+         
 
+          },
+          {
+        	  region:'south',
+        	  html:'版权@L',
+        	  height:20
           }
 
 
